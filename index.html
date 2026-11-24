@@ -7,10 +7,343 @@
 <meta name="description" content="Hướng dẫn vẽ màu nước cho người mới bắt đầu: bộ đồ tối thiểu, kỹ thuật loang màu wet-on-wet, 5 bức vẽ nhỏ cỡ bưu thiếp, chọn giấy và cọ, sửa 7 lỗi thường gặp.">
 <link rel="canonical" href="https://appkit.click/">
 <link rel="stylesheet" href="./style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1934454305970765" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Noto+Serif:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fdfcf8;
+  --surface:#ffffff;
+  --surface-2:#f4f1e8;
+  --ink:#1b2a2d;
+  --muted:#55676a;
+  --faint:#849496;
+  --teal:#0d6e66;
+  --teal-dark:#09544e;
+  --teal-soft:#e3f0ed;
+  --ochre:#b96f0e;
+  --ochre-soft:#faf0dc;
+  --line:#e2ddd0;
+  --line-strong:#cfc8b4;
+  --shadow:0 10px 30px rgba(27,42,45,.10);
+  --shadow-sm:0 2px 10px rgba(27,42,45,.08);
+  --radius:18px;
+  --radius-sm:12px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0f181a;
+    --surface:#172426;
+    --surface-2:#1c2d30;
+    --ink:#e9f1ef;
+    --muted:#a9bcba;
+    --faint:#7f9694;
+    --teal:#35b8aa;
+    --teal-dark:#7fd8cd;
+    --teal-soft:#173936;
+    --ochre:#e5a44a;
+    --ochre-soft:#33270f;
+    --line:#2b3f42;
+    --line-strong:#3d5558;
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+    --shadow-sm:0 2px 10px rgba(0,0,0,.3);
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:var(--teal)}
+.wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+@media (min-width:768px){.wrap{padding:0 32px}}
+
+/* ---------- Site header (như web chính) ---------- */
+.site-header{border-bottom:1px solid var(--line);background:var(--surface)}
+.site-header .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:10px 22px;padding-top:14px;padding-bottom:14px}
+.site-name{font-family:"Noto Serif",serif;font-weight:700;font-size:19px;color:var(--ink);text-decoration:none;line-height:1.3}
+.site-name small{display:block;font-family:"Be Vietnam Pro",sans-serif;font-weight:500;font-size:12px;color:var(--muted);letter-spacing:.02em}
+.site-nav{display:flex;flex-wrap:wrap;gap:2px 4px;margin-left:auto}
+.site-nav a{color:var(--muted);text-decoration:none;font-size:14px;font-weight:500;padding:10px 10px;border-radius:8px;min-height:40px;display:inline-flex;align-items:center}
+.site-nav a:hover,.site-nav a:focus-visible{color:var(--teal-dark);background:var(--teal-soft)}
+.site-nav a.is-current{color:var(--teal-dark);font-weight:700}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.hero-wash{position:absolute;inset:0;background-image:url("/images/anh-02-loang-mau-wet-on-wet.webp");background-size:cover;background-position:center;opacity:.16;pointer-events:none}
+@media (prefers-color-scheme: dark){.hero-wash{opacity:.10}}
+.hero .wrap{position:relative;display:grid;gap:26px;padding-top:30px;padding-bottom:34px}
+.hero-copy{max-width:600px}
+.hero-tag{display:inline-flex;align-items:center;gap:8px;background:var(--teal-soft);color:var(--teal-dark);font-weight:700;font-size:13px;padding:7px 13px;border-radius:999px}
+.hero-tag::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--teal);flex:none}
+.hero h1{font-family:"Noto Serif",serif;font-size:34px;line-height:1.22;margin:16px 0 12px;font-weight:700;letter-spacing:-.01em}
+.hero-desc{font-size:17px;color:var(--muted);margin:0 0 20px;max-width:52ch}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:52px;padding:13px 24px;border-radius:12px;font-weight:700;font-size:16px;text-decoration:none;border:1px solid transparent;cursor:pointer;font-family:inherit}
+.btn-primary{background:var(--teal);color:#fff;box-shadow:var(--shadow-sm)}
+.btn-primary:hover,.btn-primary:focus-visible{background:var(--teal-dark)}
+@media (prefers-color-scheme: dark){.btn-primary{color:#06231f}}
+.btn-ghost{background:transparent;color:var(--teal-dark);border-color:var(--line-strong)}
+.btn-ghost:hover,.btn-ghost:focus-visible{background:var(--teal-soft)}
+.hero-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;padding:0;list-style:none}
+.hero-meta li{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:7px 13px;font-size:13.5px;font-weight:600;color:var(--muted)}
+.hero-meta li b{color:var(--ink)}
+.hero-figure{margin:0}
+.hero-figure .frame{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line);background:var(--surface)}
+.hero-figure img{width:100%;height:100%;object-fit:cover;object-position:center 68%;aspect-ratio:4/3.4}
+.hero-figure figcaption{font-size:13px;color:var(--faint);margin-top:10px;line-height:1.55}
+@media (min-width:960px){
+  .hero .wrap{grid-template-columns:minmax(0,1fr) minmax(0,1.18fr);gap:44px;align-items:center;padding-top:46px;padding-bottom:52px}
+  .hero h1{font-size:44px}
+  .hero-desc{font-size:18px}
+  .hero-figure img{aspect-ratio:4/3.15}
+}
+@media (max-width:959px){
+  .hero-figure{order:-1}
+  .hero-figure img{aspect-ratio:16/11}
+  .hero h1{font-size:31px}
+}
+
+/* ---------- Roadmap ---------- */
+.roadmap{padding:40px 0 8px}
+.section-head{max-width:720px}
+.section-head h2{font-family:"Noto Serif",serif;font-size:27px;line-height:1.3;margin:0 0 8px}
+.section-head p{color:var(--muted);margin:0;font-size:16px}
+@media (min-width:960px){.section-head h2{font-size:32px}}
+.progress-line{display:flex;align-items:center;gap:0;margin:26px 0 22px;max-width:760px}
+.progress-line .dot{flex:none;width:38px;height:38px;border-radius:50%;background:var(--teal);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px}
+@media (prefers-color-scheme: dark){.progress-line .dot{color:#06231f}}
+.progress-line .bar{flex:1;height:3px;background:var(--line-strong);border-radius:2px;margin:0 6px}
+.progress-labels{display:flex;justify-content:space-between;max-width:760px;font-size:12.5px;color:var(--faint);font-weight:600;margin-top:-14px}
+@media (max-width:560px){.progress-labels{display:none}}
+
+.cards{display:grid;gap:20px;margin-top:24px}
+@media (min-width:640px){.cards{grid-template-columns:1fr 1fr}}
+@media (min-width:1024px){.cards{grid-template-columns:repeat(4,1fr);gap:22px}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow-sm)}
+.card-media{position:relative;aspect-ratio:4/3;overflow:hidden;flex:none;background:var(--surface-2)}
+.card-media img{width:100%;height:100%;object-fit:cover}
+.card-media img.crop-painting{object-position:center 66%}
+.step-badge{position:absolute;top:12px;left:12px;background:var(--ink);color:var(--bg);font-size:12.5px;font-weight:800;letter-spacing:.03em;padding:6px 11px;border-radius:999px;box-shadow:var(--shadow-sm)}
+.step-badge em{font-style:normal;color:var(--ochre)}
+.card-body{padding:18px 18px 20px;display:flex;flex-direction:column;gap:9px;flex:1}
+.card-cat{font-size:12px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--teal)}
+.card h3{font-size:18.5px;line-height:1.4;margin:0;font-weight:700}
+.card h3 a{color:var(--ink);text-decoration:none}
+.card h3 a:hover,.card h3 a:focus-visible{color:var(--teal-dark);text-decoration:underline}
+.card p{margin:0;color:var(--muted);font-size:14.5px;line-height:1.65;flex:1}
+.card-meta{font-size:13px;color:var(--faint);font-weight:600}
+.card-link{margin-top:6px;display:inline-flex;align-items:center;justify-content:space-between;gap:8px;min-height:48px;padding:12px 16px;border-radius:10px;background:var(--teal-soft);color:var(--teal-dark);font-weight:700;font-size:15px;text-decoration:none}
+.card-link:hover,.card-link:focus-visible{background:var(--teal);color:#fff}
+@media (prefers-color-scheme: dark){.card-link:hover,.card-link:focus-visible{color:#06231f}}
+.card-link .arr{font-size:18px;line-height:1}
+
+/* ---------- Next strip ---------- */
+.next-strip{margin:36px 0 0;background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.next-strip h3{margin:0 0 6px;font-size:18px}
+.next-strip p{margin:0;color:var(--muted);font-size:15px;max-width:75ch}
+.next-strip a{font-weight:700}
+@media (min-width:768px){.next-strip{display:flex;gap:24px;align-items:center}.next-strip .btn{flex:none}}
+
+/* ---------- Compare ---------- */
+.compare{padding:48px 0 10px}
+.compare-box{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:22px;margin-top:24px}
+@media (min-width:768px){.compare-box{padding:28px}}
+.device-toggle{display:inline-flex;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:4px;gap:4px;margin-bottom:20px}
+.device-toggle button{border:0;background:transparent;color:var(--muted);font-family:inherit;font-weight:700;font-size:14px;padding:10px 18px;min-height:44px;border-radius:999px;cursor:pointer}
+.device-toggle button[aria-pressed="true"]{background:var(--teal);color:#fff}
+@media (prefers-color-scheme: dark){.device-toggle button[aria-pressed="true"]{color:#06231f}}
+.compare-grid{display:grid;gap:20px}
+@media (min-width:860px){.compare-grid{grid-template-columns:1fr 1fr}}
+.mock{border:1px solid var(--line-strong);border-radius:14px;overflow:hidden;background:var(--bg);transition:max-width .25s ease;margin:0 auto;width:100%}
+.compare-grid.phone .mock{max-width:340px}
+.mock-bar{display:flex;align-items:center;gap:6px;background:var(--surface-2);border-bottom:1px solid var(--line);padding:8px 12px}
+.mock-bar i{width:9px;height:9px;border-radius:50%;background:var(--line-strong);flex:none}
+.mock-bar span{font-size:12px;color:var(--faint);font-weight:600;margin-left:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mock-body{padding:16px}
+.mock-label{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:5px 10px;border-radius:999px;margin-bottom:12px}
+.mock-label.before{background:var(--surface-2);color:var(--muted);border:1px solid var(--line-strong)}
+.mock-label.after{background:var(--ochre-soft);color:var(--ochre);border:1px solid var(--ochre)}
+/* old homepage mock */
+.old h4{font-size:17px;margin:0 0 6px;font-weight:700}
+.old p{font-size:13px;color:var(--muted);margin:0 0 12px;line-height:1.6}
+.old ul{margin:0;padding:0;list-style:none;font-size:13px}
+.old li{padding:7px 0;border-bottom:1px dashed var(--line);color:var(--teal)}
+.old li.more{color:var(--faint);border-bottom:0}
+/* new homepage mock */
+.new-top{display:block}
+.new-hero-img{border-radius:10px;overflow:hidden;margin-bottom:12px;height:150px}
+.new-hero-img img{width:100%;height:100%;object-fit:cover;object-position:center 68%}
+.new-btn-ghost{display:inline-block;background:transparent;color:var(--teal-dark);border:1px solid var(--line-strong);font-size:13px;font-weight:700;padding:8px 13px;border-radius:8px;margin:0 0 14px 6px}
+.compare-grid:not(.phone) .new-top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:14px;align-items:start}
+.compare-grid:not(.phone) .new-text{grid-column:1;grid-row:1}
+.compare-grid:not(.phone) .new-hero-img{grid-column:2;grid-row:1;height:190px;margin-bottom:0}
+.compare-grid:not(.phone) .new-steps{grid-template-columns:repeat(4,1fr);margin-top:14px}
+.compare-grid.phone .new-steps{margin-top:0}
+.new h4{font-family:"Noto Serif",serif;font-size:17px;margin:0 0 6px;line-height:1.35}
+.new p{font-size:13px;color:var(--muted);margin:0 0 12px;line-height:1.6}
+.new-btn{display:inline-block;background:var(--teal);color:#fff;font-size:13px;font-weight:700;padding:9px 14px;border-radius:8px;margin-bottom:14px}
+@media (prefers-color-scheme: dark){.new-btn{color:#06231f}}
+.new-steps{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.new-steps div{background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:9px 10px;font-size:12.5px;font-weight:600;line-height:1.45}
+.new-steps b{color:var(--teal);display:block;font-size:11px;letter-spacing:.05em;text-transform:uppercase}
+.compare-notes{display:grid;gap:16px;margin-top:20px}
+@media (min-width:860px){.compare-notes{grid-template-columns:1fr 1fr}}
+.note{border-radius:var(--radius-sm);padding:16px 18px;font-size:14.5px}
+.note h4{margin:0 0 8px;font-size:15px}
+.note ul{margin:0;padding-left:19px;color:var(--muted);line-height:1.7}
+.note.before{background:var(--surface-2);border:1px solid var(--line)}
+.note.after{background:var(--teal-soft);border:1px solid var(--teal)}
+.note.after ul{color:var(--ink)}
+
+/* ---------- Footer / approval ---------- */
+.approval{margin:40px 0 0;border:1px dashed var(--line-strong);border-radius:var(--radius);padding:22px;background:var(--surface)}
+.approval h3{margin:0 0 8px;font-size:18px}
+.approval p{margin:0 0 10px;color:var(--muted);font-size:15px;max-width:80ch}
+.approval p:last-child{margin-bottom:0}
+.site-footer{margin-top:36px;border-top:1px solid var(--line);padding:22px 0 34px;color:var(--muted);font-size:14px}
+.site-footer .wrap{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
+.site-footer a{font-weight:600;text-decoration:none}
+.site-footer a:hover{text-decoration:underline}
+.site-footer .credit{width:100%;color:var(--faint);font-size:13px}
+:focus-visible{outline:3px solid var(--ochre);outline-offset:2px}
+
+/* Ghi de style.css cho trang chu moi */
+body{max-width:none;padding:0}
+</style>
 </head>
 <body>
-<header><p class="site">Học vẽ màu nước cho người mới</p><nav><a href="./">Trang chủ</a> <a href="./bat-dau-tu-so-0/">Bắt đầu từ số 0</a> <a href="./ky-thuat-co-ban/">Kỹ thuật cơ bản</a> <a href="./bai-tap-ve-nho/">Bài tập vẽ nhỏ</a> <a href="./sua-loi-va-giu-tranh/">Sửa lỗi và giữ tranh</a> <a href="./tai-lieu-in-duoc/">Tài liệu in được</a> <a href="./gioi-thieu/">Giới thiệu</a> <a href="./lien-he/">Liên hệ</a></nav></header>
-<main><h1>Học vẽ màu nước cho người mới</h1><p>Hướng dẫn từng bước cho người chưa từng cầm cọ màu nước: chọn bộ đồ tối thiểu, tập loang màu, vẽ năm bức nhỏ cỡ bưu thiếp và sửa bảy lỗi hay gặp nhất.</p><h2>Chuyên mục</h2><ul><li><a href="/bat-dau-tu-so-0/">Bắt đầu từ số 0</a> — Dụng cụ tối thiểu, cách chọn giấy và cọ, làm quen với màu, chăm sóc cọ, lộ trình 30 ngày.</li><li><a href="/ky-thuat-co-ban/">Kỹ thuật cơ bản</a> — Loang màu ướt trên ướt, ướt trên khô, chồng lớp trong suốt, mây và bầu trời, vẽ nước.</li><li><a href="/bai-tap-ve-nho/">Bài tập vẽ nhỏ</a> — Bức vẽ nhỏ cỡ bưu thiếp, làm xong trong một buổi ngắn.</li><li><a href="/sua-loi-va-giu-tranh/">Sửa lỗi và giữ tranh</a> — Lỗi thường gặp, cách sửa khi ướt và khi khô, giữ tranh khỏi phai.</li></ul><h2>20 bài đã viết</h2><ul><li><a href="/bat-dau-tu-so-0/bo-do-toi-thieu-de-bat-dau-ve-mau-nuoc/">Bộ đồ tối thiểu để bắt đầu vẽ màu nước</a></li><li><a href="/ky-thuat-co-ban/ky-thuat-loang-mau-wet-on-wet/">Kỹ thuật loang màu wet-on-wet cho người mới</a></li><li><a href="/bai-tap-ve-nho/5-buc-ve-nho-co-bu-thiep/">5 bức vẽ nhỏ cỡ bưu thiếp cho người không chuyên</a></li><li><a href="/bat-dau-tu-so-0/chon-giay-va-co-mau-nuoc/">Chọn giấy và cọ màu nước: đọc nhãn và thử trước khi mua</a></li><li><a href="/sua-loi-va-giu-tranh/7-loi-thuong-gap-khi-moi-ve-mau-nuoc/">7 lỗi thường gặp khi mới vẽ màu nước và cách sửa</a></li><li><a href="/bat-dau-tu-so-0/pha-mau-co-ban-6-mau-goc/">Pha màu cơ bản: 6 màu gốc pha thành màu mới</a></li><li><a href="/ky-thuat-co-ban/ve-tren-giay-kho-wet-on-dry/">Vẽ trên giấy khô (wet-on-dry): nét sắc, chồng lớp, chi tiết</a></li><li><a href="/ky-thuat-co-ban/chong-lop-trong-suot-glazing/">Chồng lớp trong suốt (glazing): xây chiều sâu từng lớp mỏng</a></li><li><a href="/bai-tap-ve-nho/5-buc-hoa-la-co-bu-thiep/">5 bức hoa lá cỡ bưu thiếp: hoa hồng, hoa cúc, oải hương, hoa dại, hoa tròn</a></li><li><a href="/bai-tap-ve-nho/phong-canh-nho-nui-bien-trang/">Phong cảnh nhỏ: núi, biển, trăng — vẽ từ xa đến gần</a></li><li><a href="/sua-loi-va-giu-tranh/giu-tranh-mau-nuoc-khoi-phai-va-am/">Giữ tranh màu nước khỏi phai và ẩm: treo, đóng khung và cất giữ</a></li><li><a href="/sua-loi-va-giu-tranh/chua-vung-trang-da-mat/">Chữa vùng trắng đã mất: lấy lại điểm sáng khi lỡ tô mất</a></li><li><a href="/ky-thuat-co-ban/ve-may-va-bau-troi/">Vẽ mây và bầu trời: mây trắng, mây bão, hoàng hôn</a></li><li><a href="/bai-tap-ve-nho/ve-cay-va-tan-la/">Vẽ cây và tán lá: cây lá rộng, cây thông và rừng thông</a></li><li><a href="/ky-thuat-co-ban/ve-nuoc-song-bien-mua/">Vẽ nước: sông, biển, mưa — mặt nước phẳng, gợn sóng và phản chiếu</a></li><li><a href="/bai-tap-ve-nho/ve-nha-va-pho-nho/">Vẽ nhà và phố nhỏ: nhà, cửa sổ, bóng đổ và người qua đường</a></li><li><a href="/bai-tap-ve-nho/ve-dong-vat-nho-chim-ca-meo/">Vẽ động vật nhỏ: chim, cá, mèo — vẽ bằng hình khối đơn giản</a></li><li><a href="/bai-tap-ve-nho/ve-hoa-theo-mua-dao-sen-cuc/">Vẽ hoa theo mùa: đào, sen, cúc — ba loài hoa, ba mùa</a></li><li><a href="/bat-dau-tu-so-0/cham-soc-co-va-bao-quan-mau/">Chăm sóc cọ và bảo quản màu: rửa cọ, giữ dáng cọ và cất hộp màu</a></li><li><a href="/bat-dau-tu-so-0/lo-trinh-30-ngay-ve-mau-nuoc/">Lộ trình 30 ngày vẽ màu nước cho người mới</a></li></ul><h2>Tài liệu in được</h2><ul><li><a href="/tai-lieu-in-duoc/nhat-ky-tap-ve/">Mẫu nhật ký tập vẽ</a></li><li><a href="/tai-lieu-in-duoc/checklist-mua-do/">Checklist mua đồ lần đầu</a></li></ul></main>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-name" href="/">Học vẽ màu nước cho người mới<small>appkit.click</small></a>
+    <nav class="site-nav" aria-label="Điều hướng chính">
+      <a href="/" class="is-current" aria-current="page">Trang chủ</a>
+      <a href="/bat-dau-tu-so-0/">Bắt đầu từ số 0</a>
+      <a href="/ky-thuat-co-ban/">Kỹ thuật cơ bản</a>
+      <a href="/bai-tap-ve-nho/">Bài tập vẽ nhỏ</a>
+      <a href="/sua-loi-va-giu-tranh/">Sửa lỗi và giữ tranh</a>
+      <a href="/tai-lieu-in-duoc/">Tài liệu in được</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="hero" aria-labelledby="hero-title">
+    <div class="hero-wash" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="hero-copy">
+        <span class="hero-tag">Bắt đầu tại đây — bài thành phẩm</span>
+        <h1 id="hero-title">5 bức vẽ nhỏ cỡ bưu thiếp cho người không chuyên</h1>
+        <p class="hero-desc">Năm bức nhỏ — hoàng hôn, lá đơn, hoa ba cánh, núi xa và trăng đêm — mỗi bức tập một kỹ năng khác nhau và làm xong trong một buổi ngắn.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/bai-tap-ve-nho/5-buc-ve-nho-co-bu-thiep/">Xem bài hướng dẫn <span aria-hidden="true">→</span></a>
+          <a class="btn btn-ghost" href="#lo-trinh">Xem lộ trình 4 bước</a>
+        </div>
+        <ul class="hero-meta">
+          <li>Khổ giấy <b>A6</b></li>
+          <li><b>20–30 phút</b> / bức</li>
+          <li>Dùng đúng <b>bộ đồ tối thiểu</b></li>
+        </ul>
+      </div>
+      <figure class="hero-figure">
+        <div class="frame">
+          <img src="/images/anh-03-tranh-phong-canh-bu-thiep.webp" alt="Một tấm thiệp vẽ màu nước: bầu trời xanh chuyển vàng, dãy núi xanh và hàng thông, đặt trên hộp bút chì màu và cạnh hộp màu" width="1600" height="2400" fetchpriority="high">
+        </div>
+        <figcaption>Thành phẩm mẫu của bài: một bức phong cảnh nhỏ cỡ bưu thiếp. Ảnh minh họa: Anna Tarazevich trên Pexels — cùng dạng thiệp nhỏ như bài hướng dẫn, không phải tranh do người viết vẽ.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ LỘ TRÌNH 4 BƯỚC ============ -->
+  
+<section class="roadmap wrap" id="lo-trinh" aria-labelledby="roadmap-title">
+    <div class="section-head">
+      <h2 id="roadmap-title">Chưa từng vẽ? Đi theo đúng 4 bước này</h2>
+      <p>Mỗi bước là một bài hướng dẫn đầy đủ trên web. Làm xong Bước 4 là bạn đã có bức vẽ đầu tiên — không cần đọc hết 20 bài rồi mới bắt đầu.</p>
+    </div>
+
+    <div class="progress-line" aria-hidden="true">
+      <span class="dot">1</span><span class="bar"></span>
+      <span class="dot">2</span><span class="bar"></span>
+      <span class="dot">3</span><span class="bar"></span>
+      <span class="dot">4</span>
+    </div>
+    <div class="progress-labels" aria-hidden="true"><span>Chọn dụng cụ</span><span>Pha màu</span><span>Tập loang màu</span><span>Vẽ bức đầu tiên</span></div>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-media">
+          <img src="/images/anh-04-giay-va-co.webp" alt="Sổ giấy màu nước trắng đặt cạnh hộp màu pan 12 màu và ba cây cọ trên mặt bàn gỗ" width="1600" height="2133" loading="lazy">
+          <span class="step-badge">Bước <em>1</em> · Chọn dụng cụ</span>
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Bắt đầu từ số 0</span>
+          <h3><a href="/bat-dau-tu-so-0/bo-do-toi-thieu-de-bat-dau-ve-mau-nuoc/">Bộ đồ tối thiểu để bắt đầu vẽ màu nước</a></h3>
+          <p>Giấy 300 gsm cold press, hộp màu pan 12 màu và đúng ba cây cọ. Bài chỉ rõ món nào mua ngay, món nào đợi sau — kèm checklist mang theo khi đi mua.</p>
+          <span class="card-meta">Đọc trước tiên · Có bảng quyết định mua đồ</span>
+          <a class="card-link" href="/bat-dau-tu-so-0/bo-do-toi-thieu-de-bat-dau-ve-mau-nuoc/">Đọc bài Bước 1 <span class="arr" aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-media">
+          <img src="/images/anh-01-bo-do-toi-thieu.webp" alt="Hộp màu nước đã dùng với các ô màu và hai cây cọ đặt trên mặt bàn tối" width="1600" height="1036" loading="lazy">
+          <span class="step-badge">Bước <em>2</em> · Pha màu</span>
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Bắt đầu từ số 0</span>
+          <h3><a href="/bat-dau-tu-so-0/pha-mau-co-ban-6-mau-goc/">Pha màu cơ bản: 6 màu gốc pha thành màu mới</a></h3>
+          <p>Chỉ với vàng, đỏ và xanh dương — mỗi màu một bản ấm, một bản lạnh — bạn pha được cam, xanh lá và tím sạch, không bị đục, và tự làm bảng pha màu của riêng mình.</p>
+          <span class="card-meta">Có bài tập làm bảng pha màu</span>
+          <a class="card-link" href="/bat-dau-tu-so-0/pha-mau-co-ban-6-mau-goc/">Đọc bài Bước 2 <span class="arr" aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-media">
+          <img src="/images/anh-02-loang-mau-wet-on-wet.webp" alt="Mảng loang màu xanh dương trên giấy trắng: màu lan mềm, viền mờ, chỗ đậm chỗ nhạt, minh họa kỹ thuật ướt trên ướt" width="1600" height="1067" loading="lazy">
+          <span class="step-badge">Bước <em>3</em> · Tập loang màu</span>
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Kỹ thuật cơ bản</span>
+          <h3><a href="/ky-thuat-co-ban/ky-thuat-loang-mau-wet-on-wet/">Kỹ thuật loang màu wet-on-wet cho người mới</a></h3>
+          <p>Làm ướt giấy đều, chạm màu rồi để màu tự lan. Bài dạy ba mức nước trên cọ và ba bài tập nhỏ tăng dần: bầu trời, lá đơn, hoa ba cánh.</p>
+          <span class="card-meta">Kỹ thuật nền của mọi bức vẽ sau này</span>
+          <a class="card-link" href="/ky-thuat-co-ban/ky-thuat-loang-mau-wet-on-wet/">Đọc bài Bước 3 <span class="arr" aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-media">
+          <img class="crop-painting" src="/images/anh-03-tranh-phong-canh-bu-thiep.webp" alt="Tấm thiệp màu nước vẽ dãy núi xanh và hàng thông dưới bầu trời chuyển vàng" width="1600" height="2400" loading="lazy">
+          <span class="step-badge">Bước <em>4</em> · Vẽ bức đầu tiên</span>
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Bài tập vẽ nhỏ</span>
+          <h3><a href="/bai-tap-ve-nho/5-buc-ve-nho-co-bu-thiep/">5 bức vẽ nhỏ cỡ bưu thiếp cho người không chuyên</a></h3>
+          <p>Dùng ngay ba bước trên để vẽ năm bức thiệp nhỏ: hoàng hôn trên biển, lá đơn, hoa ba cánh, núi xa trong sương và trăng trên mặt nước đêm.</p>
+          <span class="card-meta">20–30 phút / bức · Có bảng tự chấm kết quả</span>
+          <a class="card-link" href="/bai-tap-ve-nho/5-buc-ve-nho-co-bu-thiep/">Đọc bài Bước 4 <span class="arr" aria-hidden="true">→</span></a>
+        </div>
+      </article>
+    </div>
+
+    <div class="next-strip">
+      <div>
+        <h3>Vẽ xong bức đầu tiên rồi thì sao?</h3>
+        <p>Đi tiếp theo <a href="/bat-dau-tu-so-0/lo-trinh-30-ngay-ve-mau-nuoc/">lộ trình 30 ngày vẽ màu nước</a> — mỗi ngày một bài tập ngắn — hoặc quay lại chuyên mục <a href="/bai-tap-ve-nho/">Bài tập vẽ nhỏ</a> để vẽ thêm hoa lá, nhà phố và phong cảnh cỡ bưu thiếp.</p>
+      </div>
+      <a class="btn btn-ghost" href="/bat-dau-tu-so-0/lo-trinh-30-ngay-ve-mau-nuoc/">Xem lộ trình 30 ngày</a>
+    </div>
+  </section>
+
+  <!-- ============ SO SÁNH TRƯỚC — SAU ============ -->
+  
+
+<div class="wrap">
+<h2>Chuyên mục</h2><ul><li><a href="/bat-dau-tu-so-0/">Bắt đầu từ số 0</a> — Dụng cụ tối thiểu, cách chọn giấy và cọ, làm quen với màu, chăm sóc cọ, lộ trình 30 ngày.</li><li><a href="/ky-thuat-co-ban/">Kỹ thuật cơ bản</a> — Loang màu ướt trên ướt, ướt trên khô, chồng lớp trong suốt, mây và bầu trời, vẽ nước.</li><li><a href="/bai-tap-ve-nho/">Bài tập vẽ nhỏ</a> — Bức vẽ nhỏ cỡ bưu thiếp, làm xong trong một buổi ngắn.</li><li><a href="/sua-loi-va-giu-tranh/">Sửa lỗi và giữ tranh</a> — Lỗi thường gặp, cách sửa khi ướt và khi khô, giữ tranh khỏi phai.</li></ul><h2>20 bài đã viết</h2><ul><li><a href="/bat-dau-tu-so-0/bo-do-toi-thieu-de-bat-dau-ve-mau-nuoc/">Bộ đồ tối thiểu để bắt đầu vẽ màu nước</a></li><li><a href="/ky-thuat-co-ban/ky-thuat-loang-mau-wet-on-wet/">Kỹ thuật loang màu wet-on-wet cho người mới</a></li><li><a href="/bai-tap-ve-nho/5-buc-ve-nho-co-bu-thiep/">5 bức vẽ nhỏ cỡ bưu thiếp cho người không chuyên</a></li><li><a href="/bat-dau-tu-so-0/chon-giay-va-co-mau-nuoc/">Chọn giấy và cọ màu nước: đọc nhãn và thử trước khi mua</a></li><li><a href="/sua-loi-va-giu-tranh/7-loi-thuong-gap-khi-moi-ve-mau-nuoc/">7 lỗi thường gặp khi mới vẽ màu nước và cách sửa</a></li><li><a href="/bat-dau-tu-so-0/pha-mau-co-ban-6-mau-goc/">Pha màu cơ bản: 6 màu gốc pha thành màu mới</a></li><li><a href="/ky-thuat-co-ban/ve-tren-giay-kho-wet-on-dry/">Vẽ trên giấy khô (wet-on-dry): nét sắc, chồng lớp, chi tiết</a></li><li><a href="/ky-thuat-co-ban/chong-lop-trong-suot-glazing/">Chồng lớp trong suốt (glazing): xây chiều sâu từng lớp mỏng</a></li><li><a href="/bai-tap-ve-nho/5-buc-hoa-la-co-bu-thiep/">5 bức hoa lá cỡ bưu thiếp: hoa hồng, hoa cúc, oải hương, hoa dại, hoa tròn</a></li><li><a href="/bai-tap-ve-nho/phong-canh-nho-nui-bien-trang/">Phong cảnh nhỏ: núi, biển, trăng — vẽ từ xa đến gần</a></li><li><a href="/sua-loi-va-giu-tranh/giu-tranh-mau-nuoc-khoi-phai-va-am/">Giữ tranh màu nước khỏi phai và ẩm: treo, đóng khung và cất giữ</a></li><li><a href="/sua-loi-va-giu-tranh/chua-vung-trang-da-mat/">Chữa vùng trắng đã mất: lấy lại điểm sáng khi lỡ tô mất</a></li><li><a href="/ky-thuat-co-ban/ve-may-va-bau-troi/">Vẽ mây và bầu trời: mây trắng, mây bão, hoàng hôn</a></li><li><a href="/bai-tap-ve-nho/ve-cay-va-tan-la/">Vẽ cây và tán lá: cây lá rộng, cây thông và rừng thông</a></li><li><a href="/ky-thuat-co-ban/ve-nuoc-song-bien-mua/">Vẽ nước: sông, biển, mưa — mặt nước phẳng, gợn sóng và phản chiếu</a></li><li><a href="/bai-tap-ve-nho/ve-nha-va-pho-nho/">Vẽ nhà và phố nhỏ: nhà, cửa sổ, bóng đổ và người qua đường</a></li><li><a href="/bai-tap-ve-nho/ve-dong-vat-nho-chim-ca-meo/">Vẽ động vật nhỏ: chim, cá, mèo — vẽ bằng hình khối đơn giản</a></li><li><a href="/bai-tap-ve-nho/ve-hoa-theo-mua-dao-sen-cuc/">Vẽ hoa theo mùa: đào, sen, cúc — ba loài hoa, ba mùa</a></li><li><a href="/bat-dau-tu-so-0/cham-soc-co-va-bao-quan-mau/">Chăm sóc cọ và bảo quản màu: rửa cọ, giữ dáng cọ và cất hộp màu</a></li><li><a href="/bat-dau-tu-so-0/lo-trinh-30-ngay-ve-mau-nuoc/">Lộ trình 30 ngày vẽ màu nước cho người mới</a></li></ul><h2>Tài liệu in được</h2><ul><li><a href="/tai-lieu-in-duoc/nhat-ky-tap-ve/">Mẫu nhật ký tập vẽ</a></li><li><a href="/tai-lieu-in-duoc/checklist-mua-do/">Checklist mua đồ lần đầu</a></li></ul>
+</div>
+</main>
 <footer><p>Học vẽ màu nước cho người mới. <a href="./gioi-thieu/">Giới thiệu</a> · <a href="./lien-he/">Liên hệ</a> · <a href="./chinh-sach-bao-mat/">Chính sách bảo mật</a></p><p>Ảnh trong bài gồm sơ đồ minh họa tự vẽ và ảnh stock từ Pexels; nguồn từng ảnh ghi rõ trong bài.</p></footer>
 </body>
 </html>
