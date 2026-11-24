@@ -1,0 +1,12 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sơ đồ chăm cọ: 4 bộ phận của cọ và 3 cách phơi khô">
+  <title>Sơ đồ chăm cọ: 4 bộ phận của cọ và 3 cách phơi khô</title>
+<rect width="900" height="300" fill="#f7f3ea"/>
+<text x="450" y="30" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1f3a5f" text-anchor="middle">Chăm cọ: 4 bộ phận của cọ và 3 cách phơi khô</text>
+<rect x="30" y="50" width="420" height="200" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
+<polygon points="120,80 240,110 240,130 120,160" fill="#e8c88a"/><rect x="240" y="105" width="60" height="30" fill="#b8c4cc"/><rect x="300" y="95" width="110" height="50" fill="#8b5a2b"/><text x="120" y="75" font-family="sans-serif" font-size="13" fill="#1f3a5f">Đầu cọ</text><text x="180" y="100" font-family="sans-serif" font-size="13" fill="#1f3a5f">Bụng cọ</text><text x="245" y="100" font-family="sans-serif" font-size="13" fill="#1f3a5f">Gót cọ</text><text x="240" y="160" font-family="sans-serif" font-size="13" fill="#1f3a5f">Đai kim loại</text><text x="300" y="170" font-family="sans-serif" font-size="13" fill="#1f3a5f">Cán cọ</text><text x="240" y="235" font-family="sans-serif" font-size="14" fill="#1f3a5f" text-anchor="middle">Màu đọng ở gót cọ</text>
+<rect x="480" y="50" width="390" height="200" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
+<rect x="520" y="120" width="8" height="70" fill="#8b5a2b"/><polygon points="524,120 510,80 538,80" fill="#e8c88a"/><text x="524" y="215" font-family="sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle">Dựng đứng</text>
+<line x1="640" y1="70" x2="640" y2="90" stroke="#1f3a5f" stroke-width="3"/><rect x="636" y="90" width="8" height="60" fill="#8b5a2b"/><polygon points="640,150 626,190 654,190" fill="#e8c88a"/><text x="640" y="215" font-family="sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle">Treo chúc xuống</text>
+<rect x="730" y="140" width="90" height="8" fill="#8b5a2b"/><polygon points="730,144 690,138 690,150" fill="#e8c88a"/><text x="775" y="215" font-family="sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle">Đặt nằm ngang</text>
+<text x="450" y="288" font-family="sans-serif" font-size="12" fill="#666666" text-anchor="middle">Sơ đồ minh họa tự vẽ, không phải ảnh chụp tranh thật.</text>
+</svg>

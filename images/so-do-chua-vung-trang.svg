@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Sơ đồ vùng trắng đã bị tô mất và vùng trắng đã lấy lại sau khi sửa">
+  <rect width="900" height="300" fill="#f7f3ea"/>
+  <text x="450" y="28" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1f3a5f">Vùng trắng đã mất và vùng trắng đã lấy lại</text>
+  <g font-family="sans-serif" font-size="14" fill="#1f3a5f">
+    <rect x="30" y="50" width="400" height="180" rx="10" fill="#ffffff" stroke="#b3543f" stroke-width="2"/>
+    <rect x="90" y="85" width="280" height="70" rx="4" fill="#2e5fa3" opacity="0.8"/>
+    <text x="230" y="192" text-anchor="middle" font-weight="bold">Trước: vùng trắng đã bị tô mất</text>
+    <text x="230" y="212" text-anchor="middle">Màu xanh phủ kín, không còn điểm sáng</text>
+    <rect x="470" y="50" width="400" height="180" rx="10" fill="#ffffff" stroke="#2e7d4f" stroke-width="2"/>
+    <rect x="530" y="85" width="280" height="70" rx="4" fill="#2e5fa3" opacity="0.8"/>
+    <circle cx="670" cy="120" r="22" fill="#ffffff" stroke="#2e5fa3" stroke-width="2"/>
+    <text x="670" y="192" text-anchor="middle" font-weight="bold">Sau: vùng trắng đã lấy lại</text>
+    <text x="670" y="212" text-anchor="middle">Lấy màu ra bằng cọ ẩm hoặc khăn giấy</text>
+  </g>
+  <text x="450" y="265" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666666">Sơ đồ minh họa tự vẽ, không phải ảnh chụp tranh thật.</text>
+</svg>

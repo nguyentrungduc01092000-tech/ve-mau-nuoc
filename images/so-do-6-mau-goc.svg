@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-label="Sơ đồ vòng màu sáu màu gốc và ba cặp pha ra màu thứ cấp sạch">
+  <rect width="900" height="340" fill="#f7f3ea"/>
+  <text x="450" y="28" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1f3a5f">6 màu gốc: mỗi màu có một bản ấm và một bản lạnh</text>
+  <g font-family="sans-serif" font-size="14" fill="#1f3a5f">
+    <circle cx="180" cy="120" r="34" fill="#f2e14c" stroke="#999" stroke-width="1"/><text x="180" y="124" text-anchor="middle">Vàng lạnh</text>
+    <circle cx="330" cy="80" r="34" fill="#f5b90c" stroke="#999" stroke-width="1"/><text x="330" y="84" text-anchor="middle">Vàng ấm</text>
+    <circle cx="480" cy="120" r="34" fill="#e23b2e" stroke="#999" stroke-width="1"/><text x="480" y="124" text-anchor="middle" fill="#fff">Đỏ ấm</text>
+    <circle cx="480" cy="220" r="34" fill="#d63384" stroke="#999" stroke-width="1"/><text x="480" y="224" text-anchor="middle" fill="#fff">Đỏ lạnh</text>
+    <circle cx="330" cy="260" r="34" fill="#2e5fa3" stroke="#999" stroke-width="1"/><text x="330" y="264" text-anchor="middle" fill="#fff">Xanh ấm</text>
+    <circle cx="180" cy="220" r="34" fill="#2f9e8f" stroke="#999" stroke-width="1"/><text x="180" y="224" text-anchor="middle" fill="#fff">Xanh lạnh</text>
+    <text x="650" y="90" font-weight="bold">Pha sạch = hai màu nghiêng về nhau:</text>
+    <text x="650" y="115">Vàng ấm + Đỏ ấm → Cam sạch</text>
+    <text x="650" y="140">Vàng lạnh + Xanh lạnh → Xanh lá tươi</text>
+    <text x="650" y="165">Đỏ lạnh + Xanh ấm → Tím sáng</text>
+    <text x="650" y="200" font-weight="bold">Pha trầm = hai màu nghiêng ra xa:</text>
+    <text x="650" y="225">Vàng ấm + Xanh ấm → Xanh ô liu</text>
+    <text x="650" y="250">Đỏ ấm + Xanh lạnh → Tím xám</text>
+  </g>
+  <text x="450" y="320" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666666">Sơ đồ minh họa tự vẽ, không phải ảnh chụp. Màu trong sơ đồ chỉ tượng trưng cho hướng nghiêng ấm/lạnh.</text>
+</svg>

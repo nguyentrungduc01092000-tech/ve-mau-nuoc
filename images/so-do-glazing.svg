@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Sơ đồ chồng lớp: một lớp, hai lớp và ba lớp cùng một màu đỏ">
+  <rect width="900" height="300" fill="#f7f3ea"/>
+  <text x="450" y="28" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1f3a5f">Chồng lớp: cùng một màu, càng nhiều lớp càng đậm</text>
+  <g font-family="sans-serif" font-size="14" fill="#1f3a5f">
+    <rect x="30" y="50" width="270" height="140" rx="10" fill="#ffffff" stroke="#b3543f" stroke-width="2"/>
+    <rect x="100" y="85" width="130" height="70" rx="4" fill="#e87a6b" opacity="0.45"/>
+    <text x="165" y="192" text-anchor="middle" font-weight="bold">1 lớp</text>
+    <text x="165" y="212" text-anchor="middle">Màu nhạt nhất</text>
+    <rect x="315" y="50" width="270" height="140" rx="10" fill="#ffffff" stroke="#b3543f" stroke-width="2"/>
+    <rect x="385" y="85" width="130" height="70" rx="4" fill="#d94f3d" opacity="0.65"/>
+    <text x="450" y="192" text-anchor="middle" font-weight="bold">2 lớp</text>
+    <text x="450" y="212" text-anchor="middle">Màu đậm hơn</text>
+    <rect x="600" y="50" width="270" height="140" rx="10" fill="#ffffff" stroke="#b3543f" stroke-width="2"/>
+    <rect x="670" y="85" width="130" height="70" rx="4" fill="#b3271e" opacity="0.9"/>
+    <text x="735" y="192" text-anchor="middle" font-weight="bold">3 lớp</text>
+    <text x="735" y="212" text-anchor="middle">Màu đậm nhất</text>
+  </g>
+  <text x="450" y="265" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666666">Sơ đồ minh họa tự vẽ, không phải ảnh chụp tranh thật. Mỗi lớp phải khô hẳn trước khi chồng lớp tiếp theo.</text>
+</svg>

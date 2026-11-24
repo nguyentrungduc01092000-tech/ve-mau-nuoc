@@ -1,0 +1,12 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sơ đồ 3 con vật bằng hình khối: chim, cá, mèo">
+  <title>Sơ đồ 3 con vật bằng hình khối: chim, cá, mèo</title>
+<rect width="900" height="300" fill="#f7f3ea"/>
+<text x="450" y="30" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1f3a5f" text-anchor="middle">Ba con vật bằng hình khối: chim, cá, mèo</text>
+<rect x="30" y="50" width="260" height="200" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
+<ellipse cx="150" cy="150" rx="55" ry="40" fill="#f7d774"/><ellipse cx="185" cy="115" rx="28" ry="24" fill="#f7d774"/><polygon points="210,110 228,118 210,126" fill="#e8913a"/><circle cx="192" cy="110" r="4" fill="#1f3a5f"/><path d="M120 170 L 100 190 M 130 172 L 118 192" stroke="#e8913a" stroke-width="3"/><rect x="80" y="195" width="140" height="8" fill="#8b5a2b"/><text x="160" y="245" font-family="sans-serif" font-size="14" fill="#1f3a5f" text-anchor="middle">Chim: 2 hình bầu dục</text>
+<rect x="320" y="50" width="260" height="200" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
+<ellipse cx="430" cy="150" rx="60" ry="35" fill="#f28c38"/><polygon points="490,150 530,120 530,180" fill="#e8913a"/><polygon points="430,118 450,95 455,120" fill="#d97b2b"/><circle cx="385" cy="142" r="5" fill="#1f3a5f"/><circle cx="383" cy="140" r="2" fill="#ffffff"/><text x="450" y="245" font-family="sans-serif" font-size="14" fill="#1f3a5f" text-anchor="middle">Cá: bầu dục + đuôi tam giác</text>
+<rect x="610" y="50" width="260" height="200" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
+<ellipse cx="740" cy="180" rx="55" ry="35" fill="#e8a8b8"/><circle cx="740" cy="130" r="28" fill="#e8a8b8"/><polygon points="722,108 716,82 736,100" fill="#e8a8b8"/><polygon points="758,108 764,82 744,100" fill="#e8a8b8"/><circle cx="730" cy="128" r="4" fill="#1f3a5f"/><circle cx="750" cy="128" r="4" fill="#1f3a5f"/><polygon points="740,138 734,146 746,146" fill="#d97b8a"/><text x="740" y="245" font-family="sans-serif" font-size="14" fill="#1f3a5f" text-anchor="middle">Mèo: tròn + bầu dục + tai</text>
+<text x="450" y="288" font-family="sans-serif" font-size="12" fill="#666666" text-anchor="middle">Sơ đồ minh họa tự vẽ, không phải ảnh chụp tranh thật.</text>
+</svg>

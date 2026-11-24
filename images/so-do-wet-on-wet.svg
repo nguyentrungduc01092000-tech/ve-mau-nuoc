@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Sơ đồ minh họa 3 bước wet-on-wet: làm ướt đều, chạm màu, để khô">
+  <rect width="900" height="260" fill="#f7f3ea"/>
+  <text x="450" y="28" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1f3a5f">Wet-on-wet: 3 bước — sơ đồ minh họa tự vẽ</text>
+  <g font-family="sans-serif" font-size="14" fill="#1f3a5f">
+    <rect x="30" y="50" width="260" height="150" rx="10" fill="#ffffff" stroke="#7fa8c9" stroke-width="2"/>
+    <rect x="50" y="70" width="220" height="70" rx="6" fill="#cfe3f2"/>
+    <text x="160" y="165" text-anchor="middle" font-weight="bold">1. Làm ướt đều</text>
+    <text x="160" y="186" text-anchor="middle">Bề mặt bóng nhẹ, không vũng</text>
+    <rect x="320" y="50" width="260" height="150" rx="10" fill="#ffffff" stroke="#7fa8c9" stroke-width="2"/>
+    <circle cx="450" cy="105" r="35" fill="#5b8fd6" opacity="0.7"/>
+    <circle cx="480" cy="95" r="22" fill="#e8c85a" opacity="0.7"/>
+    <text x="450" y="165" text-anchor="middle" font-weight="bold">2. Chạm màu, nhấc cọ</text>
+    <text x="450" y="186" text-anchor="middle">Để màu tự lan, không quấy</text>
+    <rect x="610" y="50" width="260" height="150" rx="10" fill="#ffffff" stroke="#7fa8c9" stroke-width="2"/>
+    <rect x="630" y="70" width="220" height="70" rx="6" fill="#eaf2f8"/>
+    <text x="740" y="165" text-anchor="middle" font-weight="bold">3. Để khô hoàn toàn</text>
+    <text x="740" y="186" text-anchor="middle">Hết bóng nước mới tô tiếp</text>
+  </g>
+  <text x="450" y="235" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666666">Sơ đồ minh họa tự vẽ, không phải ảnh chụp thực hành.</text>
+</svg>

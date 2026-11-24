@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Sơ đồ nét cọ ấn rồi nhấc lên tạo cánh hoa và 5 cánh hoa xếp quanh tâm">
+  <rect width="900" height="300" fill="#f7f3ea"/>
+  <text x="450" y="28" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1f3a5f">Một nét cọ ấn rồi nhấc lên là một cánh hoa</text>
+  <g font-family="sans-serif" font-size="14" fill="#1f3a5f">
+    <rect x="30" y="50" width="400" height="180" rx="10" fill="#ffffff" stroke="#b3543f" stroke-width="2"/>
+    <path d="M 230 200 C 190 150, 190 110, 230 70 C 270 110, 270 150, 230 200 Z" fill="#e87a9b" opacity="0.8"/>
+    <text x="230" y="192" text-anchor="middle" font-weight="bold">Ấn bụng cọ xuống rồi nhấc lên</text>
+    <text x="230" y="212" text-anchor="middle">Nét rộng ở giữa, nhọn ở hai đầu</text>
+    <rect x="470" y="50" width="400" height="180" rx="10" fill="#ffffff" stroke="#2e7d4f" stroke-width="2"/>
+    <g fill="#e87a9b" opacity="0.8">
+      <ellipse cx="670" cy="95" rx="14" ry="28"/>
+      <ellipse cx="712" cy="128" rx="14" ry="28" transform="rotate(72 712 128)"/>
+      <ellipse cx="696" cy="170" rx="14" ry="28" transform="rotate(144 696 170)"/>
+      <ellipse cx="644" cy="170" rx="14" ry="28" transform="rotate(216 644 170)"/>
+      <ellipse cx="628" cy="128" rx="14" ry="28" transform="rotate(288 628 128)"/>
+    </g>
+    <circle cx="670" cy="140" r="10" fill="#f2c94c"/>
+    <text x="670" y="192" text-anchor="middle" font-weight="bold">5 cánh xếp quanh một tâm</text>
+    <text x="670" y="212" text-anchor="middle">Tâm vàng chấm sau khi cánh hơi khô</text>
+  </g>
+  <text x="450" y="265" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666666">Sơ đồ minh họa tự vẽ, không phải ảnh chụp tranh thật.</text>
+</svg>
