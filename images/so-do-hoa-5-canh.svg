@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Sơ đồ nét cọ ấn rồi nhấc lên tạo cánh hoa và 5 cánh hoa xếp quanh tâm">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Sơ đồ nét cọ ấn rồi nhấc lên tạo cánh hoa và ba cánh xếp thành hình chén của hoa tulip">
   <rect width="900" height="300" fill="#f7f3ea"/>
   <text x="450" y="28" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1f3a5f">Một nét cọ ấn rồi nhấc lên là một cánh hoa</text>
   <g font-family="sans-serif" font-size="14" fill="#1f3a5f">
@@ -8,15 +8,17 @@
     <text x="230" y="212" text-anchor="middle">Nét rộng ở giữa, nhọn ở hai đầu</text>
     <rect x="470" y="50" width="400" height="180" rx="10" fill="#ffffff" stroke="#2e7d4f" stroke-width="2"/>
     <g fill="#e87a9b" opacity="0.8">
-      <ellipse cx="670" cy="95" rx="14" ry="28"/>
-      <ellipse cx="712" cy="128" rx="14" ry="28" transform="rotate(72 712 128)"/>
-      <ellipse cx="696" cy="170" rx="14" ry="28" transform="rotate(144 696 170)"/>
-      <ellipse cx="644" cy="170" rx="14" ry="28" transform="rotate(216 644 170)"/>
-      <ellipse cx="628" cy="128" rx="14" ry="28" transform="rotate(288 628 128)"/>
+      <path d="M 640 170 C 620 130, 625 95, 645 75 C 665 95, 668 130, 650 170 Z"/>
+      <path d="M 670 175 C 655 130, 660 90, 680 70 C 700 90, 702 130, 685 175 Z"/>
+      <path d="M 700 170 C 695 130, 700 95, 718 75 C 738 95, 740 130, 722 170 Z"/>
     </g>
-    <circle cx="670" cy="140" r="10" fill="#f2c94c"/>
-    <text x="670" y="192" text-anchor="middle" font-weight="bold">5 cánh xếp quanh một tâm</text>
+    <g fill="#f2c94c">
+      <circle cx="668" cy="150" r="3"/>
+      <circle cx="678" cy="145" r="3"/>
+      <circle cx="688" cy="150" r="3"/>
+    </g>
+    <text x="670" y="192" text-anchor="middle" font-weight="bold">3 cánh xếp thành hình chén</text>
     <text x="670" y="212" text-anchor="middle">Tâm vàng chấm sau khi cánh hơi khô</text>
   </g>
-  <text x="450" y="265" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666666">Sơ đồ minh họa tự vẽ, không phải ảnh chụp tranh thật.</text>
+  <text x="450" y="265" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666666">Sơ đồ minh họa được vẽ riêng cho website, không phải ảnh chụp tranh thật.</text>
 </svg>

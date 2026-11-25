@@ -8,5 +8,5 @@
 <ellipse cx="430" cy="150" rx="60" ry="35" fill="#f28c38"/><polygon points="490,150 530,120 530,180" fill="#e8913a"/><polygon points="430,118 450,95 455,120" fill="#d97b2b"/><circle cx="385" cy="142" r="5" fill="#1f3a5f"/><circle cx="383" cy="140" r="2" fill="#ffffff"/><text x="450" y="245" font-family="sans-serif" font-size="14" fill="#1f3a5f" text-anchor="middle">Cá: bầu dục + đuôi tam giác</text>
 <rect x="610" y="50" width="260" height="200" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
 <ellipse cx="740" cy="180" rx="55" ry="35" fill="#e8a8b8"/><circle cx="740" cy="130" r="28" fill="#e8a8b8"/><polygon points="722,108 716,82 736,100" fill="#e8a8b8"/><polygon points="758,108 764,82 744,100" fill="#e8a8b8"/><circle cx="730" cy="128" r="4" fill="#1f3a5f"/><circle cx="750" cy="128" r="4" fill="#1f3a5f"/><polygon points="740,138 734,146 746,146" fill="#d97b8a"/><text x="740" y="245" font-family="sans-serif" font-size="14" fill="#1f3a5f" text-anchor="middle">Mèo: tròn + bầu dục + tai</text>
-<text x="450" y="288" font-family="sans-serif" font-size="12" fill="#666666" text-anchor="middle">Sơ đồ minh họa tự vẽ, không phải ảnh chụp tranh thật.</text>
+<text x="450" y="288" font-family="sans-serif" font-size="12" fill="#666666" text-anchor="middle">Sơ đồ minh họa được vẽ riêng cho website, không phải ảnh chụp tranh thật.</text>
 </svg>
