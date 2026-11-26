@@ -30,5 +30,5 @@
     <text x="600" y="225">Vàng ấm + Xanh ấm → Xanh ô liu</text>
     <text x="600" y="250">Đỏ ấm + Xanh lạnh → Tím xám</text>
   </g>
-  <text x="450" y="330" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666666">Sơ đồ minh họa được vẽ riêng cho website, không phải ảnh chụp. Màu trong sơ đồ chỉ tượng trưng cho hướng nghiêng ấm/lạnh.</text>
+  <text x="450" y="330" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666666">Màu trong sơ đồ chỉ tượng trưng cho hướng nghiêng ấm/lạnh.</text>
 </svg>

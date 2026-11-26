@@ -8,5 +8,4 @@
 <rect x="520" y="120" width="8" height="70" fill="#8b5a2b"/><polygon points="524,120 510,80 538,80" fill="#e8c88a"/><text x="524" y="215" font-family="sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle">Dựng đứng</text>
 <line x1="640" y1="70" x2="640" y2="90" stroke="#1f3a5f" stroke-width="3"/><rect x="636" y="90" width="8" height="60" fill="#8b5a2b"/><polygon points="640,150 626,190 654,190" fill="#e8c88a"/><text x="640" y="215" font-family="sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle">Treo chúc xuống</text>
 <rect x="730" y="140" width="90" height="8" fill="#8b5a2b"/><polygon points="730,144 690,138 690,150" fill="#e8c88a"/><text x="775" y="215" font-family="sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle">Đặt nằm ngang</text>
-<text x="450" y="288" font-family="sans-serif" font-size="12" fill="#666666" text-anchor="middle">Sơ đồ minh họa được vẽ riêng cho website, không phải ảnh chụp tranh thật.</text>
 </svg>
